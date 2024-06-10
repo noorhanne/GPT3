@@ -1,0 +1,128 @@
+.gpt3-header{
+    display: flex;
+    padding: 4rem 2rem;
+    flex-direction: row;
+}
+
+.gpt3-header-content{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+
+}
+
+.gpt3-header-content h1{
+    
+    font-family: Manrope;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; 
+}
+
+.gpt3-header-content p{
+
+     color:green;
+     padding: 15px;
+     font-size: 20px;
+     line-height: 30px;
+     font-weight: normal;
+
+}
+
+.gpt3-header-content-input{
+    width:100%;
+    display: flex;
+     margin-left: 10px;
+   
+}
+
+.gpt3-header-content-input input{
+    width: 100%;
+    outline: none;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 10px;
+    cursor: pointer;
+    display: flex;
+    border:none;
+    padding:10px;
+    font-size: 15px;
+
+}
+.gpt3-header-content-input button{
+    width:50%;
+    outline: none;
+    color:green;
+    background-color: rgb(187, 192, 198);
+    border: none;
+    cursor: pointer;
+}
+
+.gpt3-header-content-people
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+   
+}
+.gpt3-header-image{
+    flex:1;
+    padding: 2rem;
+    
+}
+.gpt3-header-image img{
+    border-radius: 10px 15px;
+    
+    
+}
+
+
+@media screen and (max-width:1050px){
+    .gpt3-header{
+        flex-direction: column;
+    }
+    .gpt3-header-content{
+        margin:0.5rem 1rem;
+    }
+    .gpt3-header-content h1{
+        font-size:40px ;
+        line-height: 50px;
+    }
+}
+
+
+@media screen and (max-width: 650px)
+    
+{
+     .gpt3-header-content h1{
+        font-size: 30px;
+         line-height: 35px;
+     }
+     .gpt3-header-content p{
+        font-size: 16px;
+        line-height: 20px;
+     }
+}
+
+@media  screen and(max-width:490px) {
+    
+      .gpt3-header-content h1{    
+        font-size: 16px;
+        line-height: 22px;
+  
+      }
+      .gpt3-header-content p {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      .gpt3-header-content-input input{
+        width:80%;
+        font-weight:80 ;
+      }
+      .gpt3-header-content-input button{
+        width:30%;
+      }
+
+}

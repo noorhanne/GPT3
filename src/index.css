@@ -1,0 +1,17 @@
+:root{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --color-golden:#DCCA87;
+    --color-black:#0C0C0C;
+    --color-gray:#545454;
+    --color-crismon:#F5EFDB;
+    --color-grey:#AAAAAA;
+    --color-white:#FFFFFF;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,78 @@
+.gpt3-feature {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+    padding: 50px;
+    margin: 5px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items:flex-start;
+    
+    
+
+}
+
+.first-feature {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: center;
+   
+}
+
+.first-feature h2 {
+    color: rgb(240, 120, 56);
+    font-family: Manrope;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px;
+    margin-bottom: 30px;
+
+
+
+}
+
+.first-feature p {
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    color: purple;
+    margin-top: 40px;
+
+}
+
+.second-feature div {
+    width: 38px;
+    height: 3px;
+    background: linear-gradient(103deg, #AE67FA -13.86%, #F49867 99.55%), #FFF;
+
+}
+
+.second-feature p {
+    width: 76px;
+    color:rgb(238, 98, 98);
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right p {
+    color: blue;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width: 334px;
+    height: 92px;
+    flex-shrink: 0;
+}

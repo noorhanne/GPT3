@@ -1,0 +1,124 @@
+.gpt3-footer {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.gpt3-footer-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gpt3-footer-header h1 {
+    width: 821px;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    color: rgb(240, 58, 58);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.gpt3-footer-header h3 {
+    color: #409120;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 30px;
+    width: 218px;
+    height: 65px;
+    flex-shrink: 0;
+    border: 1px solid #d4a3a3;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.gpt3-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.container-one h2 {
+    width: 118px;
+    height: 30px;
+    flex-shrink: 0;
+    color: brown;
+}
+
+.gpt3-footer-container h5 {
+    width: 168px;
+    color: brown;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.container-two h2 {
+    color: brown;
+    font-family: Gilroy-Bold;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gpt3-footer-finish {
+    color: black;
+    font-feature-settings: 'liga' off;
+    font-family: Gilroy-Medium;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container-one,.container-two,.container-three{
+    width:70px;
+}
+@media only screen and (max-width:550px) {
+
+    .gpt3-footer-header h1{
+        text-align: center;
+        font-size: 24px;
+    }
+    .gpt3-footer-container{
+        padding: 20px ;
+        display: flex;
+        flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .container-four{
+       margin-left: 100px;
+    }
+}
+@media screen and (max-width:700px) {
+    .gpt3-footer-header h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    .gpt3-footer-container{
+        padding: 8px 3px;
+    }
+    
+}

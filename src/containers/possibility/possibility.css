@@ -1,0 +1,59 @@
+.gpt3-possibility {
+    display: flex;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gpt3-possibility-image img {
+    border-radius: 20px;
+    width: 100%;
+    height: 60%;
+}
+
+.gpt3-possibility-container {
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.one {
+    width: 100%;
+    color: #71E5FF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.two {
+    width: 100%;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.three {
+    width: 100%;
+    color: #81AFDD;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.four {
+    width: 100%;
+    color: #f0421b;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}

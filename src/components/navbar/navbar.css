@@ -1,0 +1,248 @@
+.gpt3-navbar-links-container {
+    transition: 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    flex-wrap: wrap;
+    margin-left: 140px;
+
+
+}
+
+.gpt3-navbar-links-container a:hover {
+    color: rgb(208, 69, 223)(255, 0, 217);
+    background-color: rgb(164, 163, 163);
+
+}
+
+.gpt3-navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gpt3-navbar {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+
+}
+
+
+
+
+.gpt3-navbar-menu-container-links-sign button,
+.gpt3-navbar-menu-container button {
+    color: red;
+    padding: 0.5rem 1rem;
+    display: flex;
+    cursor: pointer;
+    border-radius: 25px 20px;
+    box-shadow: 0 0 5;
+    font-weight: 500;
+    font-style: normal;
+    border: 0;
+    outline: none;
+
+}
+
+.gpt3-navbar-links-logo {
+    margin-right: 0.5rem;
+
+
+}
+
+.gpt3-navbar-links-logo img {
+    width: 80px;
+    height: 40px;
+    border-radius: 10px 15px;
+    box-shadow: 0 0 0.2px;
+    margin-left: 30px;
+}
+
+.name {
+
+    left: 100px;
+    bottom: 65px;
+    color: green;
+    line-height: 30px;
+    font-size: 30px;
+
+}
+
+
+
+.gpt3-navbar-menu {
+    margin-left: 2rem;
+}
+
+.gpt3-navbar-menu svg {
+    cursor: pointer;
+    color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.gpt3-navbar-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background: beige;
+    padding: 1rem;
+    position: absolute;
+    top: 65px;
+    left: 320px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    min-width: 210px;
+    box-shadow: 0 0 5px;
+}
+
+
+.gpt3-navbar-menu-container p,
+.gpt3-navbar-menu-container-links-sign p,
+.gpt3-navbar-links-container p {
+
+    margin: 0 1rem;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+}
+
+
+.gpt3-navbar-menu-container p {
+    color: blue;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.gpt3-navbar-menu-container-links-sign button,
+.gpt3-navbar-menu-container button {
+    padding: 0.5rem 1rem;
+    left: 1153px;
+    top: 55px;
+    border-radius: 5px;
+    font-family: manrope;
+    border: 0;
+    outline: none;
+}
+
+.signs button {
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+    background-color: rgb(28, 28, 232);
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 0.5rem 1rem;
+    margin-top: 5px;
+    font-size: 14px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.signs {
+    padding: 15px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+    flex-wrap: wrap;
+    align-self: flex-end;
+
+
+}
+
+.button-one,
+.button-two {
+    margin-right: 4px;
+    flex-wrap: wrap;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: white;
+}
+
+.gpt3-navbar-menu {
+    display: none;
+}
+
+
+
+@media screen and (max-width:1050px) {
+
+
+    .gpt3-navbar {
+        padding: 2rem;
+    }
+
+
+
+    .gpt3-navbar-links-container,
+    .signs {
+        display: none;
+    }
+
+    .gpt3-navbar-menu {
+        display: flex;
+        justify-content: flex-end;
+        align-self: flex-end;
+    }
+
+    .gpt3-navbar-menu-container {
+      text-align: end;
+      margin-left: 130px;
+    }
+
+
+}
+
+@media screen and (min-width:700px) {
+    .gpt3-navbar-menu-container {
+        margin-left: 480px;
+    }
+    
+}
+
+@media screen and (max-width:550px){
+     
+    .gpt3-navbar-menu-container{
+        position: absolute;
+        left: 280px;
+       }
+
+    }
+
+@media screen and (max-width:700px) {
+    .gpt3-navbar-menu-container{
+     margin-left: 130px;
+    }
+}
+@media screen and (max-width:600px) {
+    .gpt3-navbar-menu-container{
+        margin-left:40px;
+    }
+}
+

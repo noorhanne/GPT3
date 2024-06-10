@@ -1,0 +1,47 @@
+.gpt3-brand {
+  display:flex;
+  flex:wrap;
+  justify-content: center;
+  align-items: center;
+  padding:30px;
+  
+}
+.gpt3-brand div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 15px;
+    padding: 5px;
+    cursor: pointer;
+    border:5px rgb(182, 180, 180) solid;
+    flex:1;
+    max-width: 150px;
+    min-width: 120px;
+}
+@media only screen and (max-width:550px){
+  .gpt3-brand{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     flex-grow: 2;
+  }
+}
+@media screen and (max-width:700px) {
+     .gpt3-brand div{
+      text-align: center;
+      flex-wrap: wrap;
+
+     }
+}
+@media screen and (max-width:600px) {
+  .gpt3-brand div{
+   text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-self: center;
+    margin: 0.5px;
+    
+  }
+}
